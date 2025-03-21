@@ -3,10 +3,6 @@ import google.generativeai as genai
 import os
 import docx2txt
 import PyPDF2 as pdf
-from dotenv import load_dotenv
-
-# Load environment variables from a .env file
-load_dotenv()
 
 # Configure the generative AI model with the Google API key
 genai.configure(api_key="AIzaSyCdX38OjHeF_oHcF2O_YAngAxSzYIwFSps")
