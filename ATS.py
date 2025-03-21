@@ -125,8 +125,8 @@ I want the response in one single string having the structure
 
 # Streamlit app
 # Initialize Streamlit app
-st.title("Intelligent ATS - Enhance Your Resume ATS")
-st.markdown('<style>h1{color: orange; text-align: center;}</style>', unsafe_allow_html=True)
+st.title("Enhance Your Resume ATS")
+st.markdown('<style>h1{color: white; text-align: center;}</style>', unsafe_allow_html=True)
 job_description = st.text_area("Paste the Job Description", height=300)
 uploaded_file = st.file_uploader("Upload Your Resume", type=["pdf", "docx"], help="Please upload a PDF or DOCX file")
 
